@@ -70,7 +70,8 @@ class Configuration(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            pass
+            # raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
 
         self._name = name
 
